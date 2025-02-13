@@ -16,10 +16,10 @@ function process_success() {
 # ======================================================
 function ssh_files() {
 
-    rm -rf /home/admin/ssh-files
-    mkdir -p /home/admin/ssh-files
+    rm -rf /home/mrtxx/ssh-files
+    mkdir -p /home/mrtxx/ssh-files
 
-    cd /home/admin/ssh-files
+    cd /home/mrtxx/ssh-files
 
     wget https://github.com/admin17714/admin17714/raw/refs/heads/main/add_matamo.sh -O add_matamo.sh;
     wget https://github.com/admin17714/admin17714/raw/refs/heads/main/clone_domain.sh -O clone_domain.sh;
@@ -33,10 +33,10 @@ function ssh_files() {
 # ======================================================
 function template_files() {
 
-    rm -rf /home/admin/templates
-    mkdir -p /home/admin/templates
+    rm -rf /home/mrtxx/templates
+    mkdir -p /home/mrtxx/templates
 
-    cd /home/admin/templates
+    cd /home/mrtxx/templates
 
     wget https://github.com/admin17714/admin17714/raw/refs/heads/main/noip-client.zip -O noip-client.zip;
     unzip noip-client.zip

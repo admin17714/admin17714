@@ -27,10 +27,10 @@ toDomain=$2
 function process_do() {
 
     # Empty public_html Directory
-	rm -rf /home/admin/web/$toDomain/public_html/*		&> /dev/null || process_failed
+	rm -rf /home/mrtxx/web/$toDomain/public_html/*		&> /dev/null || process_failed
 	
     # Clone Domain
-	cp -rf /home/admin/web/$fromDomain/public_html/* /home/admin/web/$toDomain/public_html		&> /dev/null || process_failed
+	cp -rf /home/mrtxx/web/$fromDomain/public_html/* /home/mrtxx/web/$toDomain/public_html		&> /dev/null || process_failed
 }
 # ======================================================
 

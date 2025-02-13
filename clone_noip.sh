@@ -25,10 +25,10 @@ toDomain=$1
 function process_do() {
 
     # Empty noip client Directory
-	rm -rf /home/admin/web/$toDomain/public_html/client		                        &> /dev/null || process_failed
+	rm -rf /home/mrtxx/web/$toDomain/public_html/client		                        &> /dev/null || process_failed
 	
     # Clone NOIP Folder
-	cp -rf /home/admin/templates/client /home/admin/web/$toDomain/public_html		&> /dev/null || process_failed
+	cp -rf /home/mrtxx/templates/client /home/mrtxx/web/$toDomain/public_html		&> /dev/null || process_failed
 }
 # ======================================================
 

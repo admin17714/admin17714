@@ -27,10 +27,10 @@ templateName=$2
 function process_do() {
 
     # Empty public_html Directory
-	rm -rf /home/admin/web/$toDomain/public_html/*		                                    &> /dev/null || process_failed
+	rm -rf /home/mrtxx/web/$toDomain/public_html/*		                                    &> /dev/null || process_failed
 	
     # Clone Template Folder
-	cp -rf /home/admin/templates/$templateName/* /home/admin/web/$toDomain/public_html		&> /dev/null || process_failed
+	cp -rf /home/mrtxx/templates/$templateName/* /home/mrtxx/web/$toDomain/public_html		&> /dev/null || process_failed
 }
 # ======================================================
 
