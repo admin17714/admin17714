@@ -57,6 +57,10 @@ function template_files() {
     wget https://github.com/admin17714/admin17714/raw/refs/heads/main/news-magazine-design-4.zip -O news-magazine-design-4.zip;
     unzip news-magazine-design-4.zip
     rm -f news-magazine-design-4.zip
+	
+    wget https://github.com/admin17714/admin17714/raw/refs/heads/main/news-magazine-design-5.zip -O news-magazine-design-5.zip;
+    unzip news-magazine-design-5.zip
+    rm -f news-magazine-design-5.zip
 }
 # ======================================================
 
